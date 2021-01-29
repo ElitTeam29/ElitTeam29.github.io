@@ -1,0 +1,209 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+
+
+  .landing-page{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+  }
+  .landing-page::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(7.jpg) no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    }
+
+  .page-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    max-width: 750px;
+    width: 100%;
+    text-align: center;
+    padding: 0 50px;
+
+  }
+  .page-content h1{
+
+  font-family: 'Philosopher', sans-serif;
+    font-weight:600;
+    color:#FFD801 ;
+    text-transform: uppercase;
+    margin-bottom: 85px;
+    margin-top: 25px;
+    font-size: 70px;
+
+  }
+
+  .page-content a{
+
+    text-transform: uppercase;
+    padding: 15px 30px;
+    display: inline-block;
+    text-decoration: none;
+    color:#ff8080;
+    transition: 0.5s linear;
+    font-size: 20px;
+    font-family: 'Arapey', serif;
+  }
+  .page-content a:hover{
+    color: #fff;
+    background:#ff8080;
+  }
+
+
+body{
+background: #cccccc;/main page background-color
+font-family: sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color:#076C76 ;
+
+}
+
+
+.title-box h2{
+text-align: center;
+margin: 130px auto 70px;
+color:#FF7F50;
+font-size: 60px;
+font-family: 'Playball', cursive;
+letter-spacing: 1.5px;
+
+
+}
+title-box p{
+line-height:24px;
+margin-top: 10px;
+}
+.individus-box{
+width:200px;
+height: 450px;
+background:#fff;
+border-radius:4px;
+margin-bottom:30px;
+box-shadow: 0 10 px 10px rgba(115,193,255,0.1);
+padding: 70px;
+position: relative;
+border:1px solid orange;
+
+}
+.esas {
+width:110px;
+height:140px;
+position: absolute;
+top:30px;
+right:20px;
+border-radius:2px
+transition:0.2s;
+
+}
+.individus-box h4{
+margin-top:5px;
+margin-bottom: 5px;
+color: #42DECC;
+font-size: 18px;
+
+}
+small{
+  color:#5A5A5B;
+}
+.socialmedia-box{
+  background: #42DECC;
+  margin:120px auto 20px;
+  text-align: center;
+  border-radius: 13px;
+}
+.left
+   {
+     color:#FAFFFE;
+     cursor:pointer;
+     position: inline-block;
+     width: 11px;
+   }
+}
+
+.individus-box p{
+text-align: center;
+line-height: 19px;
+color:#5A5A5B
+}
+
+.row{
+  display:flex;
+  margin: auto;
+  width:80%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+  .esas:hover
+  {
+    width:310px;
+    height: 310px;
+
+  }
+  .hoc p{
+    font-size: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+    margin-top: 30px;
+    margin-bottom:30px;
+    border: 2px solid #FFD801;
+    padding: 100px 150px;
+    background-color: hsla(9, 100%, 64%, 0.2);
+
+  }
+  .hoc h1{
+    font-size: 60px;
+    font-family: 'Playball', cursive;
+    letter-spacing: 1.5px;
+   text-align: center;
+color:#FF7F50;
+   margin-top: 40px;
+  }
+  .hoc img{
+margin-left: 50px;
+margin-bottom: 80px;
+position: relative;
+  }
+  .website h1{
+    color:#FF7F50;
+    font-size: 60px;
+    font-family: 'Playball', cursive;
+    letter-spacing: 1.5px;
+
+  }
+
+
+  .home{
+    text-transform: uppercase;
+
+    text-decoration: none;
+    color:#ff8080;
+    transition: 0.5s linear;
+    font-size: 25px;
+    font-family: 'Arapey', serif;
+    position: relative;
+  }
+  .home a:hover{
+    color: #fff;
+    background:#ff8080;
+  }
